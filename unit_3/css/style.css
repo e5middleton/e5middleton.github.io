@@ -1,58 +1,57 @@
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body{
-	text-align: center;
-	background: url("https://www.scottishrugbyblog.co.uk/wp-content/uploads/2012/07/Colonsays-Kiloran-Bay.jpg");
-	background-size: cover; 
 	color:#F1F1F2;
-	font-family: arial, sans-serif; 
-	font-size: 27px;
-
+	font-family: arial, sans-serif;
+	font-weight:400;
+	font-size: 20px;
 }
-
+section {
+	padding:5em 0;
+}
 header{
-
-	padding:10px;
+	padding:1em;
 }
 h1,h2,h3,h4{
-	font-weight:500;
-	}
-
+	font-weight:600;
+}
 h2{
-	font-size:32px;
+	font-size:1.5em;
 	color:#27282B;
 }
 
 a{
-	color:inherit;
+	color:#2167a4;
 	text-decoration:none;
 }
 
 nav a{
 	color:#F1F1F2;
 	text-decoration:none;
-	font-size:20px;
-	padding: 10px;
+	padding: .5em;
 }
-
 img{
-	width: 480px;
+	width: 12em;
 }
-
+.logo {
+	width:5em;
+}
 footer{
 	padding:20px;
-}
-
 }
 /*h1{*/
 	/*font-size:60px;*/
 	/*text-transform:uppercase;*/
 	/*}*/
 	
-#signup{
-	font-size: 60px;
+.cta {
+	background:#e680a9;
+	display:inline-block;
+	padding:1em 2em;
 	color:#FFF;
 	font-weight:300;
 	text-decoration: none;
+	border-radius: .25em;
+	margin: 1em 0;
 }
 
 #title{
@@ -62,7 +61,13 @@ footer{
 .socialmedia{
 	width:50px;
 }
-
+#intro {
+	text-align: center;
+	background: url("https://www.scottishrugbyblog.co.uk/wp-content/uploads/2012/07/Colonsays-Kiloran-Bay.jpg");
+	background-size: cover;
+	height: 90vh;
+	padding: 2em 0 0;
+}
 
 
 
