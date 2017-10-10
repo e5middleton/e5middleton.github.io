@@ -1,6 +1,10 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body{
 	color:#27282B;
+	background: url("https://www.scottishrugbyblog.co.uk/wp-content/uploads/2012/07/Colonsays-Kiloran-Bay.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
 	font-family: arial, sans-serif;
 	font-weight:400;
 	font-size: 20px;
@@ -9,7 +13,8 @@ section {
 	padding:5em 0;
 }
 header{
-	padding:1em;
+
+	padding:0em;
 }
 h1,h2,h3,h4{
 	font-weight:600;
@@ -22,10 +27,6 @@ h2{
 a{
 	color:#2167a4;
 	text-decoration:none;
-}
-
-nav{
-	background-color: #8CB3F4;
 }
 
 nav a{
@@ -47,6 +48,14 @@ footer{
 	/*text-transform:uppercase;*/
 	/*}*/
 	
+#mainmenu{
+	background-color:rgba(0,143,61,0.5);
+	position:fixed;
+	top:0;
+	width:100%;	
+	padding:1em;
+}
+
 .cta {
 	background:#e680a9;
 	display:inline-block;
@@ -67,25 +76,25 @@ footer{
 }
 #intro {
 	text-align: center;
-	background: url("https://www.scottishrugbyblog.co.uk/wp-content/uploads/2012/07/Colonsays-Kiloran-Bay.jpg");
-	background-size: cover;
 	height: 90vh;
-	padding: 2em 0 0;
+	padding: 4em,0;
 }
 #about section {
-	width: 50%;
+	width: 100%;
 	border: 2px solid;
 	padding: 0;
+	background: rgba(0,96,176,0.76)
 }
 #about div {
 	padding: 10em 4em;
 	color: #fff;
 	text-align: center;
-	background: rgba(0,0,0, 0.25);
 }
-#about div:hover {
+
+/* #about div:hover {
 	background: rgba(17, 154, 84, 0.88);
-}
+}*/
+
 #ladies {
 	background:url("../image/womens_7.jpeg");
 	background-size:cover;
