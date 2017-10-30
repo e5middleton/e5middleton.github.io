@@ -1,10 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body{
 	color:#27282B;
-	background: url("https://www.scottishrugbyblog.co.uk/wp-content/uploads/2012/07/Colonsays-Kiloran-Bay.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size:cover;
+	background-color: fff;
 	font-family: arial, sans-serif;
 	font-weight:400;
 	font-size: 20px;
@@ -13,7 +10,6 @@ section {
 	padding:5em 0;
 }
 header{
-
 	padding:0em;
 }
 h1,h2,h3,h4{
@@ -30,7 +26,6 @@ a{
 }
 
 nav a{
-	color:#F1F1F2;
 	text-decoration:none;
 	padding: .5em;
 }
@@ -40,26 +35,27 @@ img{
 .logo {
 	width:5em;
 }
-footer{
-	padding:20px;
-}
-/*h1{*/
-	/*font-size:60px;*/
-	/*text-transform:uppercase;*/
-	/*}*/
-	
+
 #mainmenu{
-	background-color:rgba(0,143,61,0.5);
+	background-color:rgba(0,96,176,0.5);
+	color:#F1F1F2;
 	position:fixed;
 	top:0;
 	width:100%;	
 	padding:1em;
 }
+#intro {
+	text-align: center;
+	background: url("https://www.scottishrugbyblog.co.uk/wp-content/uploads/2012/07/Colonsays-Kiloran-Bay.jpg");
+	background-size: cover;
+	height: 90vh;
+	padding: 4em 0 0;
+}
 
 .cta {
 	background:#e680a9;
 	display:inline-block;
-	padding:1em 2em;
+	padding:1em,2em;
 	color:#FFF;
 	font-weight:300;
 	text-decoration: none;
@@ -74,16 +70,11 @@ footer{
 .socialmedia{
 	width:50px;
 }
-#intro {
-	text-align: center;
-	height: 90vh;
-	padding: 4em,0;
-}
+
 #about section {
 	width: 100%;
 	border: 2px solid;
 	padding: 0;
-	background: rgba(0,96,176,0.76)
 }
 #about div {
 	padding: 10em 4em;
@@ -91,19 +82,55 @@ footer{
 	text-align: center;
 }
 
-/* #about div:hover {
-	background: rgba(17, 154, 84, 0.88);
-}*/
-
 #ladies {
 	background:url("../image/womens_7.jpeg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	float: left;
+	width: 48%;
 }
 #mens {
 	background:url("../image/mens_10.jpeg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	float: right;
+	width: 48%;
 }
+.clearfix:after{
+	visability: hidden;
+	display: block;
+	font-size: 0;
+	content:" ";
+	clear: both;
+	height:0;
+}
+
+.island{
+	padding:2em;
+	margin:.5em;
+	width:30%;
+	float:left;
+}
+
+.sponser{
+	padding:2em;
+	margin:.5em;
+	width:30%;
+	float:center;
+}
+
+.party{
+	padding:2em;
+	margin:.5em;
+	width:30%;
+	float:right;
+}
+
+footer{
+	padding:20px;
+}
+
+	
+
 
 
